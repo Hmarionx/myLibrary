@@ -1,5 +1,9 @@
 package com.wildcodeschool.myLibrary.models;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class CosyDrinkAdvice implements DrinkAdviceInterface {
 
     @Override

@@ -7,7 +7,7 @@ class App {
     void start() {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:applicationContext.xml");
-        Book myBook = context.getBean("theBook", Book.class);
+        Book myBook = context.getBean("scienceFictionBook", Book.class);
         context.close();
 
         System.out.println("");
