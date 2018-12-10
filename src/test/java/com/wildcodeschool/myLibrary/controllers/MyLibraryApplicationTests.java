@@ -1,4 +1,4 @@
-package com.wildcodeschool.myLibrary;
+package com.wildcodeschool.myLibrary.controllers;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
